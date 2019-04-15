@@ -1,0 +1,23 @@
+name: of_codefield
+description: A highly customized sms-verification-code input widget.
+version: 1.0.0
+author: panda <panda@cvbro.io>
+homepage: https://www.openflutter.com
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  keyboard_visibility: ^0.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.openflutter.of_codefield
+    pluginClass: OfCodefieldPlugin
